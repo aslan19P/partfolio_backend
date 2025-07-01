@@ -9,6 +9,6 @@ services:
       - ./static:/usr/src/app/static
       - ./media:/usr/src/app/media
     ports:
-      - 8002:8002
+      - 8003:8003
     env_file:
       - .env
