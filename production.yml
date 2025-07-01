@@ -1,0 +1,14 @@
+services:
+  web:
+    build: .
+    container_name: web_prod_portfolio_backend
+    restart: always
+    command: bash compose/prod/entrypoint.sh
+    volumes:
+      - .:/usr/src/app
+      - ./static:/usr/src/app/static
+      - ./media:/usr/src/app/media
+    ports:
+      - 8002:8002
+    env_file:
+      - .env
