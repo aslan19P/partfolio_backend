@@ -192,8 +192,8 @@ REST_FRAMEWORK = {
 
 
 SPECTACULAR_SETTINGS = {
-    'TITLE': 'YOR API',
-    'DESCRIPTION': 'API for YOR project',
+    'TITLE': 'Portfolio API',
+    'DESCRIPTION': 'API for Portfolio project',
     'VERSION': '1.0.0',
     'SERVE_INCLUDE_SCHEMA': True,
     'COMPONENT_SPLIT_REQUEST': True,
